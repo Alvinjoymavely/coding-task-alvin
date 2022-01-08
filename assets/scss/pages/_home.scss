@@ -8,6 +8,9 @@
         background-size: cover;
         .banner-wrap{
             padding-top: 77px;
+            @include max(576.98){
+                padding-top: 100px;
+            }
             .banner-content{
                 font-family: $font-family;
                 h1{
@@ -59,6 +62,9 @@
     .products{
         .products-wrap{
             padding-top: 180px;
+            @include max(576.98){
+                padding-top: 60px;
+            }
             .products-slide{
                 padding-top: 50px;
                 padding-right: 30px;
@@ -155,6 +161,9 @@
                         font-style: normal;
                         font-weight: 600;
                         font-size: 18px;
+                        @include max(576.98){
+                            padding: 15px 100px;
+                        }
                         &::before{
                             content: url(../../assets/images/bag.png);
                             padding-right: 15px;

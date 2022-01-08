@@ -7,6 +7,10 @@
     height: size(80);
     z-index: 1049;
     background-color: #03062F;
+    @include max(576.98){
+        height: size(90);
+        padding-bottom: 10px;
+    }
     .nav-head-wrap{
         display: flex;
         justify-content: space-between;
@@ -25,6 +29,9 @@
     }
     .nav-accout{
         margin-left: 144px;
+        @include max(1200){
+            margin: 0px;
+        }
         .login{
             background: #030F3F;
             border: 1px solid #2B83EA;

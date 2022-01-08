@@ -50,6 +50,9 @@ $filter-z:99;
   @include max(1440){
     max-width: 1060px;
   }
+  @include max(1200){
+    max-width: 90%;
+  }
 }
 
 .d-flx {

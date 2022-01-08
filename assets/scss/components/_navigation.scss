@@ -288,7 +288,9 @@
             transform: scale(1, 1);
             ul{
                 li{
-                    color: #212529;
+                    a{
+                        color: #212529 !important;
+                    }
                 }
             }
         }
