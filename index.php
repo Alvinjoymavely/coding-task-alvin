@@ -66,6 +66,19 @@
                         <p>Vibberbo black/beige</p>
                    </div>
                 </div>
+                <div class="add-tobag">
+                    <button>Add to Bag</button>
+                </div>
+                <div class="conditions">
+                    <ul class="conditions-wrap">
+                        <li class="conditions-list">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li class="conditions-list">Ac felis donec et odio pellentesque diam</li>
+                        <li class="conditions-list">Pharetra convallis posuere morbi leo urna molestie</li>
+                        <li class="conditions-list">Nunc aliquet bibendum enim facilisis gravida neque convallis</li>
+                        <li class="conditions-list">Praesent semper feugiat nibh sed pulvinar proin gravida</li>
+                        <li class="conditions-list">Volutpat lacus laoreet non curabitur gravida arcu ac</li>
+                    </ul>
+                </div>
             </div>
         </div>
         </div>

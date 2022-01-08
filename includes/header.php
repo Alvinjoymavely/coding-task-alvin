@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://drive.google.com/file/d/1j2q2Gw91zJh5Gev5TrGdyJGIg0jxZ3aK/view?usp=sharing">
     <link rel="stylesheet" href="assets/css/main.min.css">
-    <title></title>
+    <title>Treva</title>
   </head>
   <body>
     <header class="main-header">

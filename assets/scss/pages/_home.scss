@@ -59,6 +59,10 @@
     .products{
         .products-wrap{
             padding-top: 180px;
+            .products-slide{
+                padding-top: 50px;
+                padding-right: 30px;
+            }
             .slick-slide{
                 padding: 6px;
                 img{
@@ -66,6 +70,7 @@
                 }
             }
             .products-content{
+                padding-left: 30px;
                 .products-head{
                     font-family: $font-family;
                     font-style: normal;
@@ -96,7 +101,7 @@
                         padding-right: 5px;
                     }
                 }
-                p{
+                .products-color{
                     font-family: $font-family;
                     padding-top: 14px;
                     font-style: normal;
@@ -114,7 +119,7 @@
                         font-family: $font-family;
                         max-width: 24%;
                         width: 100%;
-                        padding: 14px 12px;
+                        padding: 8px 12px;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 13px;
@@ -134,6 +139,44 @@
                         }
                         p{
                             margin: 0px;
+                        }
+                    }
+                }
+                .add-tobag{
+                    padding-top: 50px;
+                    button{
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        background: #00BA74;
+                        border-radius: 4px;
+                        padding: 24px 150px;
+                        color: #FFFFFF;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        &::before{
+                            content: url(../../assets/images/bag.png);
+                            padding-right: 15px;
+                        }
+                    }
+                }
+                .conditions{
+                    .conditions-wrap{
+                        padding-top: 30px !important;
+                        margin: 0px;
+                        padding: 0px;
+                        .conditions-list{
+                            list-style: none;
+                            padding-bottom: 12px;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            color: #34393A;
+                            &::before{
+                                content: url(../../assets/images/tick.png);
+                                padding-right: 8px;
+                            }
                         }
                     }
                 }
