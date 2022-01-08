@@ -1,0 +1,22 @@
+// bootstrap
+@import 'bootstrap/bootstrap';
+// Helpers
+@import 'mixins/mixins';
+@import 'pages/style-guide';
+@import 'base/reset';
+
+
+
+// Components
+@import 'components/headings';
+// @import 'components/font-kit';
+@import 'components/buttons';
+@import 'components/navigation';
+@import 'components/plugins';
+
+
+// Pages
+@import 'pages/header';
+@import 'pages/home';
+// @import 'pages/inner-pages';
+@import 'pages/footer';
